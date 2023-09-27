@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+p, h1, h2, h3 {
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+
+}
+body {
+
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+}
+
+
+.link {
+    text-decoration: no;
+
+}
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-left: auto;
+    margin: 0 auto;
+}
+.row {
+	padding: 11px;
+}
+
+
+.product__card{
+	display: block;
+	margin: 0 auto;
+	background-color: rgb(247, 243, 249);
+	margin-bottom: 20px;
+	width: 500px;
+	border-radius: 5px;
+	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+
+}
+.after-title {
+	font-size: 24px;
+	margin-top: 16px;
+	margin-bottom: 16px;}
+	
+	.text-pro {
+		margin-bottom: 16px;
+	}
+
+.product__card img{
+	display: block;
+	width: 150px;
+	height: 150px;
+	background-color: rgb(236, 227, 240);
+	padding: 8px 8px;
+	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+
+.product__card-content {
+	text-align: center;
+}
+
+
+.product__card p{
+
+}
+
+.product__card h3{
+
+}
+.prod-title {
+	text-align: center;
+	font-size: 36px;
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+
+
+.product__card button{
+	font-family: inherit;
+	font-weight: 500;
+    font-size: 16px;
+	line-height: 1.2;
+    letter-spacing: 0.04em;
+	color: #1d092b;
+    cursor: pointer;
+    border-radius: 4px;
+	padding: 8px;
+	border: 0;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+outline: none;
+display: block;
+margin: 0 auto;
+background-color: rgb(235, 221, 242)
+}
+.product__card button:hover {
+    background-color: rgb(200, 170, 215);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+
+.product__card a{
+
+}
+
+.product__card .row{
+	display: flex;
+	gap: 50px;
+}
